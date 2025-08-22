@@ -1,0 +1,33 @@
+@use 'sass:color';
+
+$background-dark: #ffffff;
+$text-light: #3c3b3c;
+$brand-color: #fbb314;
+
+
+.footer {
+  background-color: $background-dark;
+  color: $text-light;
+  .text-muted {
+    color: color.adjust($text-light, $lightness: 20%);
+  }
+
+  .social-icon {
+    font-size: 1.8rem;
+    color: $text-light;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: $brand-color;
+    }
+  }
+}
+.footer-logo {
+  background-image: url('../../../assets/conejo.jpg');
+  background-size: contain; 
+  background-repeat: no-repeat;
+  width: 100px; 
+  height: 80px; 
+  margin-bottom: 1rem;
+}

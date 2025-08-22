@@ -1,0 +1,16 @@
+
+$background-light: #f4f0e9;
+
+
+.programas-academicos {
+  background-color: $background-light;
+
+  .card-programa {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+    }
+  }
+}

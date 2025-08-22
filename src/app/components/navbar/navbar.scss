@@ -1,0 +1,31 @@
+.navbar-brand.navbar-logo-link {
+width: 100px; 
+height: 55px; 
+text-indent: -9999px; 
+overflow: hidden; 
+background-image: url('../../../assets/fimaki.jpg'); 
+background-repeat: no-repeat;
+background-size: contain; 
+background-position: center left; 
+display: inline-block;
+}
+
+
+.navbar {
+  .nav-link {
+    font-size: 1.3rem; 
+    font-weight: 500; 
+    color: #040404 !important; 
+  }
+
+  .navbar-brand {
+    font-size: 1.2rem; 
+    font-weight: bold; 
+  }
+}
+
+
+.navbar-logo-link {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
