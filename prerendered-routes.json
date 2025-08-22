@@ -1,0 +1,9 @@
+{
+  "routes": {
+    "/FIMAKIWEB": {},
+    "/FIMAKIWEB/contacto": {},
+    "/FIMAKIWEB/programas-academicos": {},
+    "/FIMAKIWEB/quienes-somos": {},
+    "/FIMAKIWEB/testimonios": {}
+  }
+}
